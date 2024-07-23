@@ -2371,8 +2371,9 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 8px 50%;
 			display: block;
+			
 		}
 
 		.image.left, .image.right {
@@ -2464,6 +2465,7 @@ input, select, textarea {
 
 		dl dd {
 			margin-left: 2em;
+			color: whitesmoke;
 		}
 
 		dl.alt dt {
@@ -2472,6 +2474,7 @@ input, select, textarea {
 			margin: 0;
 			clear: left;
 			float: left;
+			
 		}
 
 		dl.alt dd {
@@ -2841,6 +2844,21 @@ input, select, textarea {
 			.features li > :last-child {
 				margin-bottom: 0;
 			}
+			
+			.features img {
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				border-style: solid;
+				border-width: 0em;
+				border-color: black;
+				margin-bottom: 1em;
+			}
+			.features .kitakataicon img {
+				border-style: solid;
+				border-width: 0.075em;
+				border-color: gray;
+			}
 
 		@media screen and (max-width: 980px) {
 
@@ -2902,23 +2920,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #999999;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: grey;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #777777;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #666666;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #555555;
 			}
 
 			.statistics li.new {
