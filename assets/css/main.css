@@ -2290,6 +2290,7 @@ input, select, textarea {
 				line-height: 2em;
 			}
 
+
 		.icon.style1 {
 			color: #efa8b0;
 		}
@@ -2811,6 +2812,7 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
+		
 	}
 
 		.features li {
@@ -2819,6 +2821,18 @@ input, select, textarea {
 			margin-top: 3em;
 			padding: 0;
 		}
+			
+			.features h3 {
+				margin-bottom: 0.5em;
+			}
+
+			.features h5 {
+				margin-bottom: -0.5em;
+			}
+
+			.features ol {
+				margin-bottom: 0.75em;
+			}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
@@ -2867,10 +2881,14 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 -0.75em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
+	}
+
+	.statistics #secondstat {
+		margin-top: 0em;
 	}
 
 		.statistics li {
@@ -2901,6 +2919,12 @@ input, select, textarea {
 
 			.statistics li.style5 {
 				background-color: #8cc9f0;
+			}
+
+			.statistics li.new {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3122,6 +3146,9 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					border-radius: 50%;					
+					width: 120px;
+					height: 120px;
 				}
 
 		@media screen and (max-width: 1280px) {
