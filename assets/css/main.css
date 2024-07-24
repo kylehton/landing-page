@@ -2905,6 +2905,14 @@ input, select, textarea {
 		cursor: default;
 	}
 
+	i {
+		font-size: 50px;
+	}
+
+	.style3 img {
+		margin-bottom: -0.4em;
+	}
+
 	.statistics #secondstat {
 		margin-top: 0em;
 	}
@@ -3007,6 +3015,8 @@ input, select, textarea {
 				.statistics li strong, .statistics li b {
 					font-size: 2.5em;
 				}
+
+				
 
 		}
 
