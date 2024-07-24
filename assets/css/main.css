@@ -74,6 +74,7 @@ input, select, textarea {
 
 /* Basic */
 
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -2961,6 +2962,7 @@ input, select, textarea {
 				color: inherit !important;
 				font-weight: 300;
 				letter-spacing: -0.025em;
+				max-width: 100%;
 			}
 
 			.statistics li:first-child {
