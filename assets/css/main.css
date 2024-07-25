@@ -3153,21 +3153,21 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
+				-moz-transition: opacity 2s ease;
+				-webkit-transition: opacity 2s ease;
+				-ms-transition: opacity 2s ease;
 				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition-delay: 0.25s;
+				-webkit-transition-delay: 0.25s;
+				-ms-transition-delay: 0.25s;
+				transition-delay: 0.2s;
 				opacity: 1;
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
+				-moz-transition: opacity 1s ease, -moz-transform 0.3s ease;
+				-webkit-transition: opacity 1s ease, -webkit-transform 0.3s ease;
+				-ms-transition: opacity 1s ease, -ms-transform 0.3s ease;
 				transition: opacity 1.25s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
@@ -3853,18 +3853,59 @@ input, select, textarea {
 		/* Basic Animations */
 .hidden {
 	opacity: 0;
-	/*transition: all 2s;*/
-
+	animation: fadeOut;
+	animation-duration: 0.25s;
+}
+.hidden.active {
+	opacity: 1;
+	animation: fadeIn;
+	animation-duration: 0.5s;
+}
+.button.hidden.active{
+	opacity: 1;
+	animation: fadeIn;
+	animation-duration: 1s;
 }
 #exp.hidden.active {
 	opacity: 1;
 	animation: fadeInUp;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
-
-.hidden.active {
+#profilepicture.hidden.active {
 	opacity: 1;
-	animation: fadeIn;
-	animation-duration: 2s;
+	animation: backInRight;
+	animation-duration: 3.2s;
+}
+#skillexp.hidden.active {
+	opacity: 1;
+	animation: zoomIn;
+	animation-duration: 1s;
+}
+#projectbutton.hidden.active {
+	opacity: 1;
+	animation: heartBeat;
+	animation-duration: 5s;
+}
+#bprime.hidden.active {
+	opacity: 1;
+	animation: slideInLeft;
+	transition: 2s ease-in;
+	animation-duration: 1.3s;
+}
+#breg.hidden.active {
+	opacity: 1;
+	animation: slideInRight;
+	transition: 2s ease-in;
+	animation-duration: 1.3s;
+}
+#finalProjTitle.hidden.active {
+	opacity: 1;
+	animation: zoomInUp;
+	animation-duration: 1.5s;
+}
+#finalProjDetails.hidden.active {
+	opacity: 1;
+	animation: zoomInUp;
+	animation-duration: 1.5s;
 }
 
