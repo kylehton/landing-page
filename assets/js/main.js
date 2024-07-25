@@ -115,6 +115,22 @@
 
 		}
 
+	// Scrollex Animation
+	$('.hidden').each(function() {
+		$(this).scrollex({
+		    mode: 'enter',
+		    delay: 100,
+		    top: '30%',
+		    bottom: '30%',
+		    enter: function() {
+			   $(this).addClass('active');
+		    },
+		    leave: function() {
+			   $(this).removeClass('active');
+		    }
+		});
+	 });
+
 	// Scrolly.
 		$('.scrolly').scrolly({
 			speed: 1000
