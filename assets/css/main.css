@@ -3891,7 +3891,7 @@ input, select, textarea {
 	animation: zoomIn;
 	animation-duration: 1s;
 }
-#projectbutton.hidden.active {
+#resumebutton.hidden.active {
 	opacity: 1;
 	animation: heartBeat;
 	animation-duration: 5s;
