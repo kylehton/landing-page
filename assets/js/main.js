@@ -125,9 +125,7 @@
 		    enter: function() {
 			   $(this).addClass('active');
 		    },
-		    leave: function() {
-			   $(this).removeClass('active');
-		    }
+		    
 		});
 	 });
 
