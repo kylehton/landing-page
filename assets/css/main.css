@@ -3869,12 +3869,12 @@ input, select, textarea {
 #bio.hidden.active{
 	opacity: 1;
 	animation: slideInDown;
-	animation-duration: 0.5s;
+	animation-duration: 0.3s;
 }
 #biotext.hidden.active{
 	opacity: 1;
 	animation: slideInLeft;
-	animation-duration: 1s;
+	animation-duration: 0.5s;
 }
 #exp.hidden.active {
 	opacity: 1;
