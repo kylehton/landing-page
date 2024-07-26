@@ -2896,6 +2896,12 @@ input, select, textarea {
 
 		}
 
+/* Projects */
+		.projects li {
+			list-style: none;
+		}
+
+
 /* Statistics */
 
 	.statistics {
