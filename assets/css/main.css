@@ -2926,6 +2926,7 @@ input, select, textarea {
 
 	.statistics #secondstat {
 		margin-top: 0em;
+		flex: 1;
 	}
 
 		.statistics li {
